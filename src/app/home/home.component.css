@@ -6,9 +6,29 @@
   margin: 30px 0;
 }
 
-.section {
+section {
   padding: 25px 0;
 }
 .text-center {
   text-align: center;
+}
+
+#projetos {
+  display: flex;
+  justify-content: center;
+}
+
+#projetos .resultados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.resultados div {
+  width: 150px;
+  margin: 0 15px;
+}
+
+.form-contato {
+  margin: 0 auto !important;
 }
